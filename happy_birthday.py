@@ -1,13 +1,13 @@
 def happy_birthday(name, year_born, current_year):
     """
     Purpose: 
-        Computes the person's new age.
+        A happy birthday message of the name and person's new age.
     Parameters:
         name - the person's name (string)
         year_born - the student's score on quiz 1 (int).
         current_year - the student's score on quiz 2 (int).
     Return Value:
-        A happy birthday message of the name and person's new age (string).
+        None.
     """
     new_age = current_year - year_born
     suffix = "th"
